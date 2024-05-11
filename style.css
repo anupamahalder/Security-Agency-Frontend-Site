@@ -57,11 +57,58 @@
     margin: auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .icon-section>img{
     height: 150px;
 }
-
+.service-section{
+    margin: 100px 20px;
+}
+.service-top-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service-heading{
+    text-align: center;
+}
+.service-container{
+    border: 2px solid black;
+    width: 350px;
+    height: 380px;
+}
+.service-image{
+    width: 80px;
+    margin: 0px auto;
+}
+.service-img-container{
+    display: flex;
+    justify-content: center;
+}
+.underline-image-style{
+    display: flex;
+    justify-content: center;
+}
+.all-service-container{
+    justify-content: center;
+}
+.contact-image{
+    height: 500px;
+}
+.hire-btn{
+    background-color: #0DCAF0;
+    border: none;
+    padding: 4px 18px;
+    border-radius: 4px;
+}
+.call-image{
+    width: 60px;
+    margin-right: 20px;
+}
+.bold-text{
+    font-weight: 800;
+    font-size: 24px;
+}
 
 
 /* responsive  */
@@ -82,5 +129,15 @@
     }
     .banner-heading{
         font-size: 32px;
+    }
+    .icon-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .icon-section>img{
+        /* height: 80px; */
+        height: auto;
+        width: 200px;
+        margin: 10px;
     }
 }
