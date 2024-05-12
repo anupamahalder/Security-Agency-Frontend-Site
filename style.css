@@ -59,11 +59,15 @@
     height: 150px;
 }
 .service-section{
-    margin: 100px 20px;
+    padding: 100px 20px;
 }
 .service-top-container{
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .service-heading{
     text-align: center;
@@ -164,7 +168,7 @@
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .service-container{
-        width: 320px;
+        width: 350px;
         height: 380px;
     }   
     .service-image{
